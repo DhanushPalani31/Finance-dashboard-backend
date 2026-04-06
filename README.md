@@ -1,10 +1,10 @@
-# 💰 Finance Dashboard Backend
+#  Finance Dashboard Backend
 
 A production-grade REST API for a **Finance Data Processing and Access Control** system. Built with **Node.js (ES6+)**, **Express**, and **Mongoose (MongoDB Atlas)**.
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -18,7 +18,7 @@ A production-grade REST API for a **Finance Data Processing and Access Control**
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 finance-dashboard/
@@ -58,7 +58,7 @@ finance-dashboard/
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 ### 1. Clone the repository
 
@@ -119,7 +119,7 @@ Server runs at: `http://localhost:5000`
 
 ---
 
-## 🔐 Role Permissions Matrix
+##  Role Permissions Matrix
 
 | Action | Viewer | Analyst | Admin |
 |---|:---:|:---:|:---:|
@@ -138,7 +138,7 @@ Server runs at: `http://localhost:5000`
 
 ---
 
-## 📡 API Reference
+## API Reference
 
 All responses follow a consistent structure:
 
@@ -155,7 +155,7 @@ Base URL: `http://localhost:5000/api/v1`
 
 ---
 
-### 🔑 Auth Endpoints
+###  Auth Endpoints
 
 #### Register
 ```
@@ -205,7 +205,7 @@ Authorization: Bearer <token>
 
 ---
 
-### 👥 User Management (Admin Only)
+###  User Management (Admin Only)
 
 #### Get All Users
 ```
@@ -240,7 +240,7 @@ Authorization: Bearer <admin_token>
 
 ---
 
-### 💳 Transaction Endpoints
+### Transaction Endpoints
 
 #### Get All Transactions
 ```
@@ -379,7 +379,7 @@ Authorization: Bearer <admin_token>
 
 ---
 
-### ❤️ Health Check
+###  Health Check
 
 ```
 GET /health
@@ -387,7 +387,7 @@ GET /health
 
 ---
 
-## 🛡️ Security Features
+##  Security Features
 
 - **JWT Authentication** — Stateless, token-based auth with expiry
 - **Role-Based Access Control** — Middleware-level route protection
@@ -401,7 +401,7 @@ GET /health
 
 ---
 
-## ✅ Additional Features
+##  Additional Features
 
 | Feature | Details |
 |---|---|
@@ -416,7 +416,7 @@ GET /health
 
 ---
 
-## 🧠 Assumptions Made
+##  Assumptions Made
 
 1. **Registration is open** — Any user can self-register. Role defaults to `viewer`. Admins can later promote users.
 2. **Analyst scope** — Analysts can create and edit their own transactions, but not delete them.
@@ -427,7 +427,7 @@ GET /health
 
 ---
 
-## 📬 Postman Collection
+##  Postman Collection
 
 Import the collection from the `/postman` folder (if provided) or manually set:
 
@@ -437,6 +437,9 @@ Import the collection from the `/postman` folder (if provided) or manually set:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
-Built as part of a Backend Developer Internship assessment.
+**Dhanush**
+Saveetha Engineering College
+
+[![GitHub](https://img.shields.io/badge/GitHub-DhanushPalani31-181717?style=flat&logo=github)](https://github.com/DhanushPalani31/)

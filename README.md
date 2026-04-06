@@ -439,7 +439,7 @@ Import the collection from the `/postman` folder (if provided) or manually set:
 
 ## Author
 
-**Dhanush**
+**Dhanush P**
 Saveetha Engineering College
 
 [![GitHub](https://img.shields.io/badge/GitHub-DhanushPalani31-181717?style=flat&logo=github)](https://github.com/DhanushPalani31/)
